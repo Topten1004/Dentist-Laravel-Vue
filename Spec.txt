@@ -1,0 +1,36 @@
+Thank you for applying for our project. 
+Please read the following regarding the production of requested projects.
+ 
+Our company is his web development company run by his four people including executives. 
+It was established in 2005 and has been in operation to the present day.
+Since 2012, while working as a part-time lecturer at my alma mater (Dental Technician School attached to Osaka University School of Dentistry), I have also been working as a dentist to contribute to the safety and security of dental care. 
+We are conducting joint research and development with the Osaka University School of Dentistry Medical Information Office regarding the traceability of laboratory equipment. 
+(At that time, his site created is Dental Technician Dot Net https://www.gikoushi.net). He is here because he can no longer continue to use it due to the effects of the change. 
+Therefore, we have devised a new system and are working hard to develop it with a focus on dental technicians = “smile creation craftsmen (trademark registered)”. 
+In addition, Laravel and Vue have already been learned, and it is possible if it is a simple operation.
+ 
+As shown in Figure 1 below, the new system takes an image of the dental equipment (dentures, ceramics, etc.) manufactured by a dental technician and issues an access code to the medical institution. 
+After writing it on the business card of the smile creation craftsman, we will provide it to the patient to achieve traceability. 
+Patients who receive the business card know who the creator is, and at the same time, 10 Smile Coins (trademark registration pending) are given to support the evaluation of dental technicians in a tipping method. . 
+In addition, as an application for dental hygienists and dentists, post-treatment intraoral photographs are taken and used as treatment records in the same flow. Patients can access the site from the business card information they receive, and can manage their own treatment progress. and get feedback on whether the food was delicious and healthy.
+ 
+As a matter to be added, we have newly established a “tough coin” for medical professionals in a harsh working environment to express their “toughness” to their employers and patients (outside), and introduced a mechanism to tip coins. To do. One of the purposes of this website is to create a society where people can say that they are having a hard time and share their hardships. 
+We believe that the smile coin and hard coin mechanisms can be applied to other fields in the future.
+ 
+Here, I would like to talk about the situation of dental care workers. The number of dental technicians has decreased sharply, and there is a chronic shortage of dental hygienists. 
+Since the number of inquiries from dentists is increasing toward the dental technician dot net site created earlier, this system that incorporates “nudge” in behavioral economics will become a social infrastructure. We expect that this will contribute to the advancement and increase in the status of dental technicians. 
+In addition, the digitization of medical care, such as the introduction of CAD/CAM, is progressing, and dental checkups will be made compulsory by the government policy this spring, so the situation is favorable for the introduction environment of this system.
+
+
+Regarding the request, the materials related to the requirements definition are almost ready. If you can point out the missing parts as appropriate, he will prepare as much as possible to make the work easier. 
+・Basic design document ・Database theoretical design document (logical design, ER diagram) 
+・Front-end design (created by our company with Vue3 + Vuetify3) We purchased a design template from Vuetify and produced it. 
+・Provide more than rental server and domain (Xserver contracted).
+ 
+In this recruitment, we are looking for continuous partners who can create and develop social infrastructure together.
+ 
+Therefore, I would appreciate it if you could consult with me while presenting materials on Zoom etc. 
+We apologize for the inconvenience, but we would appreciate it if you could consider it. Looking forward to your reply.
+ 
+
+( ap21_f3df ) CS24 Co., Ltd. President and CEO Masatoshi Yanomoto

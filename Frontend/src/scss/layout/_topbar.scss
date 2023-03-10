@@ -1,0 +1,32 @@
+.searchinput {
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  left: 0;
+  z-index: 10;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 210px;
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 1264px) {
+  .logo {
+    width: 210px;
+    overflow: hidden;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  .logo {
+    width: 210px;
+    overflow: hidden;
+  }
+  .mini-sidebar {
+    .logo {
+      width: 210px;
+      overflow: hidden;
+    }
+  }
+}

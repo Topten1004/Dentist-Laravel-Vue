@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <style>
+
+    /* フォントの場所が仮なので、パスでエラー。　とりあえずコメントアウト。
+        @font-face {
+            font-family: ipaexg;
+            font-style: normal;
+            font-weight: normal;
+            src: url('{{ storage_path('/fonts/ipaexg.ttf') }}') format('truetype');
+        } */
+
+        body {
+            font-family: ipaexg !important;
+            font-size: 1.2em;
+        }
+        .ctn{ text-align: center;}
+        .ml30{ margin-left: 30px;}
+        .ml40{ margin-left: 40px;}
+        .ml60{ margin-left: 60px;}
+        .ml80{ margin-left: 80px;}
+        .ma30 {margin: 30px;}
+        .ma60 {margin: 60px;}
+        .pa20 {padding: 20px;}
+        .pl40 {padding: 40px;}
+        .pl80 {padding: 80px;}
+        .pt10 { padding-top: 10px;}
+        .pt20 { padding-top: 20px;}
+        .pxy20_30 { padding: 20px 30px;}
+        .pb10 { padding-bottom: 10px;}
+        .pb20 { padding-bottom: 20px;}
+        .pb30 { padding-bottom: 30px;}
+        .f15 { font-size: 1.5em;}
+        .f18 { font-size: 1.8em;}
+        .nd a { text-decoration: none; color: #000;}
+        .rightcontainer{ display: flex; justify-content: flex-end;}
+        .rbtext {text-align: right; vertical-align:bottom;}
+        table { width: 100%;}
+        tr,td { border: none;}
+    </style>
+</head>
+<body>
+<div></div>
+
+<h1 class="ctn">技工装置のトレーサビリティに関する<br>重要なお知らせ</h1>
+<div class="ma30">
+<h2>お得意様各位</h2>
+    　当技工所（{{技工所名}}）では、歯科医療の激変する環境に対応する試みとして
+    <strong>「笑顔創造職人&#174;」プロジェクト</strong>の活用により
+    <u>技工装置のトレーサビリティ</u>を実施することとなりました。
+    本書面をご参照賜り導入の趣旨にご賛同いただけます場合は、利用登録と連携承認をお願いいたします。
+    システム導入の目的や期待するメリットはプロジェクトが提唱する内容で恐縮ですが以下の通りです。
+
+    <ol class="ml30 pa20">
+        <li>安心安全を主軸に高度な歯科技工技術の提供による患者満足度を追求し、患者様の定着及び口コミ効果に寄与する。</li>
+        <li>技術の差別化を追求することにより歯科医療機関へ付加価値と利潤を提供する。（デジタル化による平準化対策）</li>
+        <li>個々の技量を評価して可能な範囲公表することによる歯科技工士不足対策を実施する。</li>
+        <li>歯科技工士の「学び」を記録し明示することで、個々の技術力を向上させる。（学会連携機能）</li>
+        <li>目標設定の明確化による未習熟歯科技工士の育成に寄与する。（辞職者の減少へ）</li>
+        <li>技術向上の為に技工装置画像を保存し研究する事で製作上の不具合発生率を減少させる。（失敗事例の見える化と原因探究）</li>
+        <li>製作過程を記した技工録（令和5年4月1日義務化施行）を有効活用する。</li>
+        <li><strong>笑顔コイン</strong>や<strong>つら〜いコイン</strong>の遊び心を起点とするイベント化への期待。等々</li>
+    </ol>
+
+</div>
+
+<div class="ma30">
+    <h2>１．システム概略　:  笑顔創造職人プロジェクト　　https://smile24.org</h2>
+    <div class="ml30">
+        <ul>
+            <li>納品時に製作担当者の名刺（アクセスコード付）をお届けします。（注：すべての納品に添付するとは限りません。）</li>
+            <li>技工装置に問題がなければ、患者様にお渡しください。製作者情報が明示されています。履歴管理も可能です。</li>
+            <li>納品した技工装置にお気づきの改善点等があれば、名刺のメモ欄に不具合状況等を記載して技工所へご返却ください。</li>
+            <li>名刺を受け取った患者様には、<strong>笑顔コイン</strong>10枚を進呈します。担当技工士の応援にご利用いただけます。</li>
+            <li>治療後に笑顔や食事の状況及び認知症改善等の有無を患者様からのアンケート回答として受信可能です。</li>
+            <li><strong>笑顔コイン</strong>は、応援の為のコインです。基本的に換金はできません。（別途、歯科衛生士バージョンもございます。）</li>
+        </ul>
+    </div>
+</div>
+
+<div class="ma30 pt10">
+    <h2>２．導入手順　→ 　利用登録と連携登録をお願いします。</h2>
+    <div class="ml80 pb30">
+        <div>
+            <span class="f15">Step1.</span>
+            初めての方は、利用者登録をします。→ 　
+            <span class="f18 nd"><a href="https://smile24.org/regist">https://smile24.org/regist</a></span>
+        </div>
+    </div>
+    <div class="ml80">
+        <div>
+            <span class="f15">Step2.</span>
+            ログインし、{{技工所名}}専用の連携登録　→ 　
+            <span class="f18 nd"><a href="https://smile24.org/conect/{{技工所コード1234}}">https://smile24.org/conect/{{1234}}</a></span>
+        </div>
+   </div>
+</div>
+
+<div class="ma30 pt10">
+    <h2>３．費用等　→ 　無料（歯科医療機関による基本利用の場合）</h2>
+    <div class="ml60">
+        基本的に歯科医療機関は無料でご利用いただけます。名刺を発行する歯科技工所は有料です。<br>
+        但し、歯科衛生士バージョンの利用や笑顔コインの追加発行による担当技工士の技術支援（患者様への訴求強化）を行っていただく場合は、少額ではございますが有料となります。
+        詳細は、笑顔創造職人プロジェクトサイトをご参照ください。
+    </div>
+</div>
+
+<div class="ma30 pt10">
+    <h2>４．注意事項等</h2>
+    <div class="ml60">
+        <ul>
+            <li>個人情報保護の観点から名刺には<u>患者様氏名に代わり<strong>診察券番号</strong>を記載します。発注時に指示書等でお知らせください。</u></li>
+            <li>患者様又は歯科医療機関の承諾がある場合に限り、名刺の裏面に患者様氏名を記載させていただきます。</li>
+            <li>基本操作として名刺発行時に技工装置単体の画像を撮影し、患者様及び製作担当者の記録として残します。</li>
+            <li><strong>笑顔コイン</strong>は、当該技工所内でもその頑張りに応じて付与します。</li>
+            <li><strong>笑顔コイン</strong>の獲得枚数が製作者の全ての評価ではありません。学術履歴等を併せてご参照ください。</li>
+        </ul>
+    </div>
+
+    <table>
+        <tr>
+            <td>
+                <!-- 画像はフルパスで後ほど記載すること。 -->
+                <img src="namecard1.png" width="760px">
+            </td>
+            <td class="rbtext">
+                <div>
+                    {{ 発行日付 }}<br>
+                    <!-- <?php
+                    $date = new DateTime('now');
+                    echo $date->format('Y年m月d日');
+                    ?> -->
+                    {{技工所名}}<br>
+                    {{技工所Email}}<br>
+                    {{技工所TEL}}
+                    <p>
+                        各種問合せ( https://smile24.org/inquiry )
+                    </p>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+    
+</div>
+
+
+</body>
+</html>
